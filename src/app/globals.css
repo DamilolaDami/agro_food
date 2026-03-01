@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand greens */
+  --color-brand-50:  #f0fdf4;
+  --color-brand-100: #dcfce7;
+  --color-brand-200: #bbf7d0;
+  --color-brand-300: #86efac;
+  --color-brand-400: #4ade80;
+  --color-brand-500: #22c55e;
+  --color-brand-600: #16a34a;
+  --color-brand-700: #15803d;
+  --color-brand-800: #166534;
+  --color-brand-900: #14532d;
+
+  /* Earth tones */
+  --color-earth-50:  #fdf8f0;
+  --color-earth-100: #faefd8;
+  --color-earth-200: #f5dcac;
+  --color-earth-300: #eec476;
+  --color-earth-400: #e6a94a;
+  --color-earth-500: #dc8f2a;
+  --color-earth-600: #c4711e;
+  --color-earth-700: #a35519;
+  --color-earth-800: #84421a;
+  --color-earth-900: #6c3717;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+body {
+  background: #f9fafb;
+  color: #1f2937;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Modal scroll lock */
+body.modal-open {
+  overflow: hidden;
+}
