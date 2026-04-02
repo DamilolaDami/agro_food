@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'FoodPod – Fresh Agri Produce Delivered',
+  title: 'Foodpod – Premium Foodstuffs at True Wholesale Prices',
   description:
-    'Order premium quality palm oil, yam, rice, beans, and more straight from trusted local farmers. Fast, reliable delivery across Nigeria.',
+    'Get premium foodstuffs at true wholesale prices. Smarter shopping, bigger savings, zero stress. Free doorstep delivery. Pay only on delivery.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

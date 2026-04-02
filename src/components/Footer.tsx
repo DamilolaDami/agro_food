@@ -11,7 +11,13 @@ export default function Footer({ onOrderClick }: FooterProps) {
       <section id="contact" className="py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 mb-3">Get in Touch</h2>
-          <p className="text-gray-500 mb-8">Have questions? Reach us on WhatsApp or place an order.</p>
+          <p className="text-gray-500 mb-2">Have questions? Reach us on WhatsApp or place an order.</p>
+          <p className="text-gray-500 mb-8">
+            Email:{' '}
+            <a href="mailto:palmspenny@foodpod.com" className="text-brand-700 hover:underline">
+              palmspenny@foodpod.com
+            </a>
+          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://wa.me/2348169745631"

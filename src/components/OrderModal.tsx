@@ -393,7 +393,7 @@ export default function OrderModal({
                               type="text"
                               value={customQtys[product.id] || ''}
                               onChange={(e) => handleCustomQty(product.id, e.target.value)}
-                              placeholder="Or type a custom quantity…"
+                              placeholder="Specify preferred brand"
                               className="mt-2 w-full text-xs border border-gray-300 rounded-lg px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                             />
                           </div>

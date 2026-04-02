@@ -1,8 +1,8 @@
 const stats = [
-  { value: '8+', label: 'Produce Types' },
-  { value: '500+', label: 'Happy Customers' },
-  { value: '24h', label: 'Delivery Turnaround' },
-  { value: '100%', label: 'Farm Fresh' },
+  { value: '💰', label: 'Slash your food costs' },
+  { value: '⭐', label: 'Enjoy premium quality' },
+  { value: '🚚', label: 'Free doorstep delivery' },
+  { value: '✅', label: 'Pay only on delivery' },
 ];
 
 export default function StatsBar() {
@@ -11,8 +11,8 @@ export default function StatsBar() {
       <div className="max-w-5xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
         {stats.map((s) => (
           <div key={s.label}>
-            <p className="text-3xl font-extrabold text-brand-700">{s.value}</p>
-            <p className="text-sm text-gray-500 mt-1">{s.label}</p>
+            <p className="text-3xl leading-none mb-1">{s.value}</p>
+            <p className="text-sm font-semibold text-gray-700">{s.label}</p>
           </div>
         ))}
       </div>

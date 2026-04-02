@@ -14,18 +14,22 @@ export default function Hero({ onOrderClick }: HeroProps) {
     >
       <div className="max-w-5xl mx-auto text-center">
         <span className="inline-block bg-white/20 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-5 tracking-wide uppercase">
-          Farm Fresh · Direct Delivery
+          Wholesale Prices · Direct Delivery
         </span>
 
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-5">
-          Fresh Agri Produce
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-3">
+          Get Premium Foodstuffs at
           <br />
-          <span className="text-earth-300">Delivered to Your Door</span>
+          <span className="text-earth-300">True Wholesale Prices</span>
         </h1>
 
-        <p className="text-green-100 text-lg max-w-xl mx-auto mb-8">
-          Order premium quality palm oil, yam, rice, beans, and more straight from trusted local
-          farmers. Fast, reliable delivery across Nigeria.
+        <p className="text-green-200 text-lg font-semibold mb-4">
+          Smarter shopping. Bigger savings. Zero stress.
+        </p>
+
+        <p className="text-green-100 text-base max-w-xl mx-auto mb-8">
+          Tired of buying in small bits and paying premium prices every time? We&apos;ve built
+          Foodpod to make the smart switch to bulk buying effortless.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
